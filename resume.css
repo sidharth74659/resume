@@ -1,0 +1,140 @@
+body {
+  margin: 15px;
+}
+
+.container,
+pre {
+  font-family: Calibri;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.name {
+  float: left;
+
+  text-transform: uppercase;
+  font-size: large;
+  /* border: 2px solid red; */
+}
+
+/* .email {
+    text-align: right;
+    font-size: large;
+
+} */
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  /* border: 2px solid red; */
+
+  text-align: left;
+}
+
+.contact tr td:last-child {
+  margin-top: 0px;
+  padding-left: 1em;
+  /* color: lime; */
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.uppercase__grey {
+  text-transform: uppercase;
+  font-family: Calibri;
+
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background-color: rgba(139, 136, 136, 0.753);
+  margin: 24px 0px;
+}
+
+ul li {
+  list-style: square;
+  /* list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png); */
+}
+
+.academic__table {
+  margin: 0px auto;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.academic__table,
+.academic__table th,
+.academic__table td {
+  border: 1px solid;
+  border-collapse: collapse;
+
+  text-align: center;
+  padding: 25px 15px;
+}
+
+ul li {
+  line-height: 26px;
+  margin-bottom: 8px;
+
+  /* border : 2px solid tomato; */
+}
+
+/* table, tr, td {
+} */
+
+.table {
+  margin-left: 16px;
+  border-spacing: 0;
+}
+
+.table td {
+  border: 0;
+  padding: 12px;
+
+  text-align: left;
+
+  vertical-align: text-top;
+  /* color : green; */
+}
+
+.table tr td:nth-child(2n) {
+  padding-left: 5em;
+  /* color: lime; */
+}
+
+.table tr td:last-child {
+  margin-top: 0px;
+  padding-left: 2em;
+  /* color: lime; */
+}
+
+pre {
+  margin-top: 0px;
+  line-height: 2em;
+}
+
+.declaration__text {
+  margin-left: 15px;
+}
+
+.declaration__table {
+  float: left;
+  margin-left: 15px;
+  /* padding: 0px; */
+}
+.declaration__table td {
+  padding: 0px;
+  /* color: aquamarine; */
+  text-align: left;
+}
+
+.signature {
+  float: right;
+  font-weight: bold;
+}
